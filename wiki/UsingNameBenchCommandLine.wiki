@@ -3,12 +3,15 @@
 = namebench command-line usage =
 
 Most people will simply want to run this software with no arguments:
-
+{{{
   ./namebench.py
+}}}
 
 If you want to install this tool permanently, you can use:
 
+{{{
   sudo python setup.py install
+}}}
 
 namebench will test the nameservers your machine is currently using, plus
 the popular global DNS services, and the best 4-6 additional name servers
