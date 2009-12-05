@@ -1,8 +1,12 @@
 #labels Featured
-namebench has two modes: a graphical mode, and a command-line mode. For help witht he latter, please see UsingNameBenchCLI
+namebench has two modes: a graphical mode, and a command-line mode. For help witht he latter, please see UsingNameBenchCommandLine
+
 
 =Using namebench=
 
+When you start namebench on Mac OS X, Windows, or Linux with the required libraries (python-tk), you will be greeted with a basic interface:
+
+<img src="http://namebench.googlecode.com/files/namebench_macosx.png">
 
 The defaults should do the right thing for nearly everyone, so most people can safely click "Start Benchmark". Once the benchmark runs, a web browser should pop-up with a detailed analysis. 
 
@@ -46,4 +50,8 @@ This option selects how many requests should be tested for each DNS server. The 
 
 How many times the test is run. By default, we only run the test once.. Since each run repeats the same list of requests, each subsequent run should serve cached data. Running the test more than once can be useful to measure the performance difference between non-cached requests and cached requests
 
+== Output ==
 
+Once the run completes successfully, your default web browser should pop-up with a report. It should be self-explanatory:
+
+<img src="http://namebench.googlecode.com/files/screenshot-1.0.jpg">
