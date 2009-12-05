@@ -22,6 +22,7 @@ to the command-line, or edit namebench.cfg:
 
 = Options =
 
+{{{
 Usage: namebench.py [options]
 
 Options:
@@ -59,3 +60,4 @@ Options:
   -S, --no_regional     Disable regional_ns servers
   -x, --no_gui          Disable GUI
   -O, --only            Only test nameservers passed as arguments
+}}}
