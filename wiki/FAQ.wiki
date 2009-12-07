@@ -1,6 +1,8 @@
 #summary Frequently Asked Questions
 
-= Frequently Asked Questions =
+== I get different results each time I run namebench. Why? ==
+
+The first run is the one that is most likely to be accurate. The more times to run namebench, the more likely you are to be repeating the same queries over and over again. This will skew your results toward the closest nameserver to you, rather than the one most likely to have your requests cached during normal operations.
 
 == Are all of the "regional servers" public? == 
 
