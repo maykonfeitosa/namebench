@@ -7,8 +7,8 @@ The first run is the one that is most likely to be accurate. The more times to r
 
 == Are all of the "regional servers" public? == 
 
-__If I do a test run, and it points me at various regional DNS servers, run
-by ISPs or transit providers, are these servers officially "public"?__
+_If I do a test run, and it points me at various regional DNS servers, run
+by ISPs or transit providers, are these servers officially "public"?_
 
 No. Many regional nameservers are only available to their direct or indirect customers. The ones that do show up on your list are the ones that do allow recursive lookups to your machine however. 
 
