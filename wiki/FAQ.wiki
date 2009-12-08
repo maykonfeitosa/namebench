@@ -18,8 +18,9 @@ Due to to the dependency on <a href="http://pyobjc.sourceforge.net/">PyObjC</a>,
 
 Once extracted, you may run the following from the namebench directory to force a GUI to open:
 
+{{{
 I_LOVE_TK=1 ./namebench.py
-
+}}}
 == How do you use the DNS servers recommended? ==
 
 See http://code.google.com/speed/public-dns/docs/using.html
