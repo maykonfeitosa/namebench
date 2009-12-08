@@ -1,14 +1,12 @@
 #summary Frequently Asked Questions
 #labels Featured
 
-== namebench fails to start on Windows ==
-
-If you are using Windows 2000, XP, or Vista and get an error like:
+== namebench fails to start on Windows 2000, XP, or Vista ==
 
 _This application has failed to start because the application configuration 
 is incorrect. Reinstalling the application may fix this problem._
 
-You need to install the Visual C++ libraries from Microsoft:
+If you get this error, you need to install the Visual C++ libraries from Microsoft:
 
 http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en
 
