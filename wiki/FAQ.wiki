@@ -12,6 +12,14 @@ If you get this error, you need to install the Visual C++ libraries from Microso
 
 http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en
 
+== namebench fails to start on Mac OS X ==
+
+Due to to the dependency on <a href="http://pyobjc.sourceforge.net/">PyObjC</a>, namebench requires an Intel Mac running Mac OS X 10.5 or higher. If you do not meet this requirement, you can still use namebench with the command-line or with a slightly ugly U I by downloading the "source" version of namebench.
+
+Once extracted, you may run the following from the namebench directory to force a GUI to open:
+
+I_LOVE_TK=1 ./namebench.py
+
 == How do you use the DNS servers recommended? ==
 
 See http://code.google.com/speed/public-dns/docs/using.html
