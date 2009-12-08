@@ -21,6 +21,15 @@ Once extracted, you may run the following from the namebench directory to force 
 {{{
 I_LOVE_TK=1 ./namebench.py
 }}}
+
+== What packages do I need for the UI in UNIX? ==
+
+Without the proper libraries installed, namebench will fall back to the command-line version. If you would like a UI:
+
+  * Debian/Ubuntu: sudo apt-get install python-tk
+  * Fedora: yum install tkinter
+  * FreeBSD: sudo pkg_add -r py-tkinter
+
 == How do you use the DNS servers recommended? ==
 
 See http://code.google.com/speed/public-dns/docs/using.html
