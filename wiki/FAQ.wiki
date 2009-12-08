@@ -1,7 +1,7 @@
 #summary Frequently Asked Questions
 #labels Featured
 
-<wiki:toc max_depth="1" />
+<wiki:toc />
 
 == namebench fails to start on Windows 2000, XP, or Vista ==
 
