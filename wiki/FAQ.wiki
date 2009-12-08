@@ -1,6 +1,17 @@
 #summary Frequently Asked Questions
 #labels Featured
 
+== namebench fails to start on Windows ==
+
+If you are using Windows 2000, XP, or Vista and get an error like:
+
+_This application has failed to start because the application configuration 
+is incorrect. Reinstalling the application may fix this problem._
+
+You need to install the Visual C++ libraries from Microsoft:
+
+http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en
+
 == I get different results each time I run namebench. Why? ==
 
 The first run is the one that is most likely to be accurate. The more times to run namebench, the more likely you are to be repeating the same queries over and over again. This will skew your results toward the closest nameserver to you, rather than the one most likely to have your requests cached during normal operations.
