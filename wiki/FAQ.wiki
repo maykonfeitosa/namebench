@@ -18,6 +18,8 @@ See http://code.google.com/speed/public-dns/docs/using.html
 
 The first run is the one that is most likely to be accurate. The more times to run namebench, the more likely you are to be repeating the same queries over and over again. This will skew your results toward the closest nameserver to you, rather than the one most likely to have your requests cached during normal operations.
 
+One work-around to avoid this is to switch between the Alexa dataset and your favorite browser as a history source. As the Alexa dataset is global in scope, it will tend to skew toward nameservers that cache queries from around the world, however.
+
 == Are all of the "regional servers" public? == 
 
 _If I do a test run, and it points me at various regional DNS servers, run
