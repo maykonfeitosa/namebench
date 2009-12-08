@@ -1,6 +1,8 @@
 #summary Frequently Asked Questions
 #labels Featured
 
+<wiki:toc max_depth="1" />
+
 == namebench fails to start on Windows 2000, XP, or Vista ==
 
 _This application has failed to start because the application configuration 
@@ -30,3 +32,7 @@ No. Many regional nameservers are only available to their direct or indirect cus
 == I run a public nameserver, how do I get added or removed? ==
 
 At the moment, the best way is to open an issue with a list of IP's and names to go along with them.
+
+== How do I submit a bug? ==
+
+See http://code.google.com/p/namebench/issues/list
