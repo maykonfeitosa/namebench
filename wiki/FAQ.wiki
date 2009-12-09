@@ -18,7 +18,7 @@ You need to install the Visual C++ libraries from Microsoft:
 
 http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en
 
-== namebench fails to start on Mac OS X ==
+== namebench fails to start on Mac OS X 10.4 or Mac OS X PowerPC ==
 
 Due to to the dependency on <a href="http://pyobjc.sourceforge.net/">PyObjC</a>, namebench requires an Intel Mac running Mac OS X 10.5 or higher. If you do not meet this requirement, you can still use namebench with the command-line or with a slightly ugly U I by downloading the "source" version of namebench.
 
