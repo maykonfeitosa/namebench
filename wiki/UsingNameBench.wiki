@@ -1,6 +1,5 @@
 #labels Featured
-namebench has two modes: a graphical mode, and a command-line mode. For help witht he latter, please see UsingNameBenchCommandLine
-
+These docs cover use of the UI, for command-line specific help, see UsingNameBenchCommandLine
 
 =Using namebench=
 
