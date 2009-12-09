@@ -40,7 +40,7 @@ Without the proper libraries installed, namebench will fall back to the command-
 
 See http://code.google.com/speed/public-dns/docs/using.html
 
-Please note: If this machine is part of a larger internal network, use of an external DNS server may result in not being able to access other machines within the network. 
+Please note: If this machine is part of a larger internal network, use of an external DNS server may result in not being able to access other machines within the network. This should not affect home use, however.
 
 == I get different results each time I run namebench. Why? ==
 
