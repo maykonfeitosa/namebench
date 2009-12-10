@@ -38,6 +38,12 @@ Without the proper libraries installed, namebench will fall back to the command-
   * Fedora: yum install tkinter
   * FreeBSD: sudo pkg_add -r py-tkinter
 
+= Interacting with namebench =
+
+==What do you do with the browser history?==
+
+
+
 = Using the Results =
 
 == How do you use the DNS servers recommended? ==
@@ -69,3 +75,7 @@ No. Many regional nameservers are only available to their direct or indirect cus
 == How do I submit a bug? ==
 
 See <a href="http://code.google.com/p/namebench/issues/list">our issue tracker</a>
+
+== Where can I discuss namebench? ==
+
+Visit <a href="https://groups.google.com/group/namebench">namebench on Google Groups</a>
