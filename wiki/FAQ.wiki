@@ -3,9 +3,9 @@
 
 <wiki:toc />
 
-== Running namebench == 
+= Running namebench =
 
-=== namebench fails to start on Windows 2000, XP, or Vista ===
+== namebench fails to start on Windows 2000, XP, or Vista ==
 
 If you get the following errors:
 
@@ -20,7 +20,7 @@ You need to install the Visual C++ libraries from Microsoft:
 
 http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en
 
-=== namebench fails to start on Mac OS X 10.4 or Mac OS X PowerPC ===
+== namebench fails to start on Mac OS X 10.4 or Mac OS X PowerPC ==
 
 Due to to the dependency on <a href="http://pyobjc.sourceforge.net/">PyObjC</a>, namebench requires an Intel Mac running Mac OS X 10.5 or higher. If you do not meet this requirement, you can still use namebench with the command-line or with a generic Tk UI by downloading the "source" version of namebench.
 
@@ -30,7 +30,7 @@ Once you extract the source version, you may run the following from the namebenc
 I_LOVE_TK=1 ./namebench.py
 }}}
 
-=== What packages do I need for the UI in UNIX? ===
+== What packages do I need for the UI in UNIX? ==
 
 Without the proper libraries installed, namebench will fall back to the command-line version. If you would like a UI:
 
@@ -38,34 +38,34 @@ Without the proper libraries installed, namebench will fall back to the command-
   * Fedora: yum install tkinter
   * FreeBSD: sudo pkg_add -r py-tkinter
 
-== Using the Results == 
+= Using the Results =
 
-=== How do you use the DNS servers recommended? ===
+== How do you use the DNS servers recommended? ==
 
 See http://code.google.com/speed/public-dns/docs/using.html
 
 Please note: If this machine is part of a larger internal network, use of an external DNS server may result in not being able to access other machines within the network. This should not affect home use, however.
 
-=== Why do I get different results each time I run namebench.===
+== Why do I get different results each time I run namebench.==
 
 The first run is the one that is most likely to be accurate. The more times to run namebench, the more likely you are to be repeating the same queries over and over again. This will skew your results toward the closest nameserver to you, rather than the one most likely to have your requests cached during normal operations.
 
 One work-around to avoid this is to switch between the Alexa dataset and your favorite browser as a history source. As the Alexa dataset is global in scope, it will tend to skew toward nameservers that cache queries from around the world, however.
 
-== Other ==
+= Other Questions =
 
 
-=== Are all of the "regional servers" public? ===
+== Are all of the "regional servers" public? ==
 
 _If I do a test run, and it points me at various regional DNS servers, run
 by ISPs or transit providers, are these servers officially "public"?_
 
 No. Many regional nameservers are only available to their direct or indirect customers. The ones that do show up on your list are the ones that do allow recursive lookups to your machine however. Like accessing a web page found on a search engine, it is possible that the DNS server was misconfigured to allow public access, and may disappear at any time.
 
-=== I run a public nameserver, how do I get added or removed? ===
+== I run a public nameserver, how do I get added or removed?==
 
 <a href="http://code.google.com/p/namebench/issues/entry">Enter an issue</a> with a list of IP's to include or exclude.
 
-=== How do I submit a bug? ===
+== How do I submit a bug? ==
 
 See <a href="http://code.google.com/p/namebench/issues/list">our issue tracker</a>
