@@ -2,10 +2,13 @@
 
 = namebench command-line usage =
 
-Most people will simply want to run this software with no arguments:
+On Mac OS X, or UNIX distributions without Tk installed, you can simply use:
+
 {{{
-  ./namebench.py
+ ./namebench.py 
 }}}
+
+Otherwise, you may force namebench to launch in a command-line mode with the -x flag.
 
 If you want to install this tool permanently, you can use:
 
