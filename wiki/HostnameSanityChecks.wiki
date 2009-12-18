@@ -1,0 +1,7 @@
+#summary A list of hostnames and their expected responses
+#labels Deprecated
+
+{{{
+google.com=74.125.,66.102.9.,66.102.11.,66.102.13., 66.102.7.,66.102.9.,209.85.1,209.85.22,209.85.231,64.233.16,64.233.17,64.233.18,   66.249.8,66.249.9,72.14.2,216.239.59
+www.google.com=CNAME www.l.google.com
+}}}
