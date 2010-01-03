@@ -62,8 +62,11 @@ One work-around to avoid this is to switch between the Alexa dataset and your fa
 
 It means that the DNS server falsifies the result when a non-existent host is requested. This is usually used so that the DNS provider can place advertising when you make a typo when typing in a URL. 
 
-= Other Questions =
+== What does "Incorrect result for..." mean?==
 
+This means that the DNS server may be falsifying the result for a well known service, and redirecting you to another website. This is usually a very bad thing. This alert may also result in false positives when a website changes to a new network or CNAME. 
+
+= Other Questions =
 
 == Are all of the "regional servers" public? ==
 
