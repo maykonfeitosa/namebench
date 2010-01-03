@@ -58,6 +58,10 @@ The first run is the one that is most likely to be accurate. The more times to r
 
 One work-around to avoid this is to switch between the Alexa dataset and your favorite browser as a history source. As the Alexa dataset is global in scope, it will tend to skew toward nameservers that cache queries from around the world, however.
 
+== What does "NXDOMAIN hijacking" mean? ==
+
+It means that the DNS server falsifies the result when a non-existent host is requested. This is usually used so that the DNS provider can place advertising when you make a typo when typing in a URL. 
+
 = Other Questions =
 
 
