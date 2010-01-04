@@ -22,7 +22,9 @@ http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D
 
 == namebench fails to start on Mac OS X 10.4 or Mac OS X PowerPC ==
 
-Due to to the dependency on <a href="http://pyobjc.sourceforge.net/">PyObjC</a>, namebench requires an Intel Mac running Mac OS X 10.5 or higher. If you do not meet this requirement, you can still use namebench with the command-line or with a generic Tk UI by downloading the "source" version of namebench.
+New: namebench 1.1b1 now runs on PowerPC based Macs!
+
+Due to to the dependency on <a href="http://pyobjc.sourceforge.net/">PyObjC</a>, namebench requires Mac OS X 10.5 or higher. If you do not meet this requirement, you can still use namebench with the command-line or with a generic Tk UI by downloading the "source" version of namebench.
 
 Once you extract the source version, you may run the following from the namebench directory to force the Tk GUI to be displayed:
 
