@@ -38,9 +38,7 @@ Options:
   -z CONFIG, --config=CONFIG
                         Config file to use.
   -o OUTPUT_FILE, --output=OUTPUT_FILE
-                        Filename to write output to
-  -f OUTPUT_FORMAT, --format=OUTPUT_FORMAT
-                        Output format for file (ascii, html)
+                        Filename to write HTML output to
   -c CSV_FILE, --csv_output=CSV_FILE
                         Filename to write CSV output to
   -j THREAD_COUNT, --threads=THREAD_COUNT
@@ -51,10 +49,10 @@ Options:
                         health check timeout (in seconds)
   -d DATA_FILE, --datafile=DATA_FILE
                         File containing a list of domain names to query.
-  -i IMPORT_FILE, --import=IMPORT_FILE
+  -i IMPORT_SOURCE, --import=IMPORT_SOURCE
                         Import history from an external application (chrome,
-                        chromium, epiphany, firefox, internet_explorer, opera,
-                        safari, squid)
+                        chromium, epiphany, firefox, internet_explorer,
+                        konqueror, opera, safari, seamonkey, squid)
   -I, --invalidate_cache
                         Force health cache to be invalidated
   -t TEST_COUNT, --tests=TEST_COUNT
@@ -64,6 +62,12 @@ Options:
   -s NUM_SERVERS, --num_servers=NUM_SERVERS
                         Number of nameservers to include in test
   -S, --no_regional     Disable regional_ns servers
+  -w, --open_webbrowser
+                        Opens the final report in your browser
   -x, --no_gui          Disable GUI
+  -C, --enable-censorship-checks
+                        Enable censorship checks
+  -6, --ipv6_only       Only include IPv6 name servers
   -O, --only            Only test nameservers passed as arguments
+
 }}}
