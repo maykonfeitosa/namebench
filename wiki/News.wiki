@@ -6,8 +6,8 @@ _2010-02-27_
 
 Changes:
 
-  * 706 new nameservers added
   * Faster! Optimized import handling, pinging, and added multi-threaded benchmarking.
+  * 712 new regional nameservers added.
   * Added fallback handling for when we overload low-spec home routers
   * Merged code for browser imports and datafile imports. 
   * Added import support from Flock, Galeon, Midori, OmniWeb, Sunrise, Camino, iCab.
