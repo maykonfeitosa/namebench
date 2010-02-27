@@ -1,8 +1,15 @@
 #summary Recent Updates
 #labels Featured
 
-= News =
+== 1.2-RC1 posted ==
+_2010-02-27_
 
-== 2010-02-27: 1.2-RC1 posted ==
+Changes:
 
-  * Blah
+  * 706 new nameservers added
+  * Faster! Optimized import handling, pinging, and added multi-threaded benchmarking.
+  * Added fallback handling for when we overload low-spec home routers
+  * Merged code for browser imports and datafile imports. 
+  * Added import support from Flock, Galeon, Midori, OmniWeb, Sunrise, Camino, iCab.
+  * Renamed -t (tests) option to -q (queries), retired -d (datafile) option.
+  * Lots of bug-fixes and other minor improvements
