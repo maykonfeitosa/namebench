@@ -1,0 +1,8 @@
+#summary Recent Updates
+#labels Featured
+
+= News =
+
+== 2010-02-27: 1.2-RC1 posted ==
+
+  * Blah
