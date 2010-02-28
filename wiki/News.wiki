@@ -1,8 +1,7 @@
 #summary Recent Updates
 #labels Featured
 
-== 1.2 posted ==
-_2010-02-28_
+== 1.2 posted - _2010-02-28_ ==
 
 Same as RC2. Changes since 1.2-RC1:
 
@@ -10,8 +9,7 @@ Same as RC2. Changes since 1.2-RC1:
   * Fix bugs related to browser launching under Windows
 
 
-== 1.2-RC1 posted ==
-_2010-02-27_
+== 1.2-RC1 posted - _2010-02-27_ ==
 
 Changes:
 
