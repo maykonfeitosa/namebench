@@ -2,7 +2,7 @@
 
 = namebench command-line usage =
 
-First, download the namebench source code file and extract it. You will also need <a href="http://www.python.org/">Python</a> 2.5 - 2.7 installed. Most UNIX distributions come with this already. Assuming all of this, it's normally just as easy as typing:
+First, download the namebench source code file and extract it. You will also need <a href="http://www.python.org/">Python</a> 2.5 - 2.7 installed. Mac OS X and most UNIX distributions come with this already. Assuming all of this, it's normally just as easy as typing:
 
 {{{
  ./namebench.py 
