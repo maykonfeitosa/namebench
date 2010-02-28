@@ -2,13 +2,14 @@
 
 = namebench command-line usage =
 
-On Mac OS X, or UNIX distributions without Tk installed, you can simply use:
+First, download the namebench source code file and extract it. You will also need <a href="http://www.python.org/">Python</a> 2.5 - 2.7 installed. Most UNIX distributions come with this already. Assuming all of this, it's normally just as easy as typing:
 
 {{{
  ./namebench.py 
 }}}
 
-If it pops up a graphical window, pass the -x flag to force it to command-line mode.
+If namebench launches a graphical window (because you have Tk), you can use the -x option to force it to command-line mode.
+
 namebench will test the nameservers your machine is currently using, plus
 the popular global DNS services, and the best 4-6 additional name servers
 that it can find for you. It will output some text-graphs and URL's for more
