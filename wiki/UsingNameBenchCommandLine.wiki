@@ -66,3 +66,7 @@ Options:
   -6, --ipv6_only       Only include IPv6 name servers
   -O, --only            Only test nameservers passed as arguments
 }}}
+
+= Configuration Files =
+
+Most everything about namebench can be tweaked: See the config/ subdirectory for more information.
