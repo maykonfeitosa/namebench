@@ -18,7 +18,9 @@ a more detailed performance analysis of each nameserver.
 If you want to specify an additional set of name services, simply add the IP
 to the command-line, or edit namebench.cfg:
 
+{{{
   ./namebench.py 10.0.0.1 192.168.0.1
+}}}
 
 = Options =
 
