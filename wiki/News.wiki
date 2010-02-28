@@ -6,10 +6,11 @@ _2010-02-27_
 
 Changes:
 
-  * Faster! Optimized import handling, pinging, and added multi-threaded benchmarking.
-  * 712 new regional nameservers added.
+  * Faster! Optimized import handling, pinging, and added multi-threaded benchmarking
+  * 712 new regional nameservers added
   * Added fallback handling for when we overload low-spec home routers
-  * Merged code for browser imports and datafile imports. 
-  * Added import support from Flock, Galeon, Midori, OmniWeb, Sunrise, Camino, iCab.
-  * Renamed -t (tests) option to -q (queries), retired -d (datafile) option.
+  * Merged code for browser imports and datafile imports
+  * Command-line mode now selects the best available data source (like the GUI)
+  * Added import support from Flock, Galeon, Midori, OmniWeb, Sunrise, Camino, iCab
+  * Renamed -t (tests) option to -q (queries), retired -d (datafile) option
   * Lots of bug-fixes and other minor improvements
