@@ -11,12 +11,10 @@ If you get one of the following errors, your system is missing the Microsoft 200
 
 _namebench could not  be executed._
 
-or:
-
 _This application has failed to start because the application configuration 
 is incorrect. Reinstalling the application may fix this problem._
 
-To fix this, follow the instructions from Microsoft's website: http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en
+To fix this, download the package from Microsoft: <a href="http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&displaylang=en">Microsoft Visual C++ 2008 SP1 Redistributable Package (x86)</a>. 
 
 == namebench fails to start on Mac OS X 10.4==
 
