@@ -34,10 +34,6 @@ Without the proper libraries installed, namebench will fall back to the command-
 
 = Interacting with namebench =
 
-==What do you do with the browser history?==
-
-
-
 = Using the Results =
 
 == How do you use the DNS servers recommended? ==
