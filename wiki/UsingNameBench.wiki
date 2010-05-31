@@ -59,4 +59,4 @@ This option selects how many requests should be tested for each DNS server. The 
 
 Once the run completes successfully, your default web browser should pop-up with a report. It should be self-explanatory:
 
-<img src="http://namebench.googlecode.com/files/screenshot-1.0.jpg">
+<img src="http://namebench.googlecode.com/files/screenshot-1.3-table.jpg">
