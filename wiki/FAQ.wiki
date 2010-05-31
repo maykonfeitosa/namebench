@@ -17,7 +17,7 @@ Yes.
 
 = Will namebench make large downloads faster? =
 
-Unlikely. 
+Probably not.
 
 While namebench may significantly increase the speed of every day websurfing, it will not increase the speed of large file downloads such as watching movies online. This is because your computer only has to perform DNS lookups to start the download of the movie. Once the download initiates successfully, your download performance is at the mercy of your internet provider.
 
