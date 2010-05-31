@@ -3,6 +3,18 @@
 
 <wiki:toc />
 
+= What does namebench actually do? =
+
+namebench looks for the fastest DNS (<a href="http://en.wikipedia.org/wiki/Domain_Name_System">Domain Name System</a>) servers accessible to your computer. You can think of a DNS server as a phone book: When you want to dial a company on the phone, you may have to flip through a phone book by name to find their phone number. On the internet, when you want to visit "www.google.com", a DNS server needs to looks up the correct <a href="http://en.wikipedia.org/wiki/IP_address">IP Address</a> for you.
+
+Over the course of loading a single web page, your computer may need to look up a dozen of these addresses. While your internet provider usually automatically assigns you one of their servers to handle looking up these addresses, there may be others that are significantly faster. 
+
+namebench finds them.
+
+= Will namebench make downloads faster? =
+
+While namebench may significantly increase the speed of every day websurfing, it will not increase the speed of large file downloads such as watching movies online. This is because your computer only has to perform DNS lookups to start the download of the movie. Once the download initiates successfully, your download performance is at the mercy of your internet provider.
+
 = Running namebench =
 
 == namebench fails to start on Windows 2000, XP, or Vista ==
