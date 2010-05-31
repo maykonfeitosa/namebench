@@ -5,7 +5,7 @@ These docs cover use of the UI, for command-line specific help, see UsingNameBen
 
 When you start namebench on Mac OS X, Windows, or Linux with the required libraries (python-tk), you will be greeted with a basic interface:
 
-<img src="http://namebench.googlecode.com/files/namebench_macosx.png">
+<img src="http://namebench.googlecode.com/files/sscreenshot-1.3.png">
 
 The defaults should do the right thing for nearly everyone, so most people can safely click "Start Benchmark". Once the benchmark runs, a web browser should pop-up with a detailed analysis. 
 
